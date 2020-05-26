@@ -1,15 +1,15 @@
-IMPORTANTE
+# IMPORTANTE
 Para inicializar correctamente el proyecto se debe obtener el token de acceso de la api de Spotify, en el siguiente link
 
-https://developer.spotify.com/console/
+> https://developer.spotify.com/console/
 
 En esa pagina, redirigirse a cualquier endpoint, por ejemplo:
 
-https://developer.spotify.com/console/get-artist/
+> https://developer.spotify.com/console/get-artist/
 
 Luego seleccionar ###GET TOKEN y luego en la ventana que aparece apretar REQUEST TOKEN, copiar el nuevo token que nos da en el input y pegarlo en la siguiente ruta:
 
-Spotify/src/config/config.json
+> Spotify/src/config/config.json
 
 Pegar en "Auth" y guardar!
 Importante aclarar que el token tiene duración, por lo que mientra se ejecute la aplicación puede llegar a fallar cuando se quiera realizar una petición luego de expirado el token, si pasa esto, volver a pedir un token y realizar los mismos pasos anteriores. Y si recargas la página, ya se puede seguir con normalidad.
