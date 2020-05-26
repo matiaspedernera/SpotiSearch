@@ -1,0 +1,51 @@
+.favorites-section {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  &__title {
+    margin-bottom: 20px;
+  }
+  &__container {
+    .favorite {
+      margin-top: 10px;
+      border: 1.5px solid black;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 2.5fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      &:hover {
+        background: rgb(208, 151, 241);
+        box-shadow: 0px 5px 20px 5px rgba(0, 0, 0, 0.6);
+        transition: 0.5s;
+      }
+      &__logo {
+        margin: 10px 0px 0px 10px;
+        width: 60px;
+        grid-row: 1/4;
+      }
+      &__title {
+        margin: 3px;
+      }
+      &__artist {
+        margin: 3px;
+        font-weight: lighter;
+      }
+      &__album {
+        margin: 3px;
+        font-weight: lighter;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .favorites-section {
+    &__container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      .favorite {
+        width: 48%;
+      }
+    }
+  }
+}

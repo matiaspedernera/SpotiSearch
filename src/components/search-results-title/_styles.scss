@@ -1,0 +1,25 @@
+.container {
+  margin-top: 10%;
+  border-bottom: 1.5px solid black;
+  padding-bottom: 20px;
+  &__title {
+    margin-bottom: 15px;
+  }
+  &__subtitle {
+    font-weight: lighter;
+    font-size: 20px;
+    margin-bottom: -30px;
+  }
+  &__index {
+    margin-top: 50px;
+    font-weight: lighter;
+    font-style: italic;
+  }
+}
+
+
+@media only screen and (min-width: 768px) {
+  .container {
+    margin-top: 5%;
+  }
+}

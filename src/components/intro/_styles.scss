@@ -1,0 +1,19 @@
+.intro {
+  margin-top: 10%;
+  &__subtitle {
+    font-size: 20px;
+  }
+  &__title {
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .intro {
+    margin-top: 5%;
+    &__paragraph {
+      width: 550px;
+    }
+  }
+}

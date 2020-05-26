@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Boomerang",
+    "artist": "Imagine Dragons",
+    "album": "Origins",
+    "logo" : "./logo/orquesta.svg",
+    "id": 1
+  },
+  {
+    "title": "Thunderclouds",
+    "artist": "LSD",
+    "album": "LSD",
+    "logo": "./logo/orquesta.svg",
+    "id": 2
+  },
+  {
+    "title": "Shine A Light",
+    "artist": "BANNERS",
+    "album": "Shine A Light",
+    "logo": "./logo/orquesta.svg",
+    "id":3
+  }
+]

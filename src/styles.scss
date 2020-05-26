@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+body {
+  background: rgb(230, 200, 248);
+}
+
+@import "./components/layout/styles";
+@import "./components/layout-searcher/styles";
+@import "./components/header/styles";
+@import "./components/search-header/styles";
+@import "./components/footer/styles";
