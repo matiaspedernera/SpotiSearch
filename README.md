@@ -7,7 +7,7 @@ En esa pagina, redirigirse a cualquier endpoint, por ejemplo:
 
 > https://developer.spotify.com/console/get-artist/
 
-Luego seleccionar ###GET TOKEN y luego en la ventana que aparece apretar REQUEST TOKEN, copiar el nuevo token que nos da en el input y pegarlo en la siguiente ruta:
+Luego seleccionar **GET TOKEN** y luego en la ventana que aparece apretar **REQUEST TOKEN**, copiar el nuevo token que nos da en el input y pegarlo en la siguiente ruta:
 
 > Spotify/src/config/config.json
 
